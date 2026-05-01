@@ -24,19 +24,10 @@ function renderEmails(emails) {
   emails.forEach((email, index) => {
     const item = document.createElement('div');
     item.className = 'email-item';
-    
-    const input = document.createElement('input');
-    input.type = 'email';
-    input.value = email;
-    input.readOnly = true;
-    
-    const btn = document.createElement('button');
-    btn.className = 'remove-btn';
-    btn.dataset.index = index;
-    btn.textContent = '×';
-    
-    item.appendChild(input);
-    item.appendChild(btn);
+    item.innerHTML = `
+      <input type="email" value="${email}" readonly>
+      <button class="remove-btn" data-index="${index}">×</button>
+    `;
     emailListDiv.appendChild(item);
   });
 
