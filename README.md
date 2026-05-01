@@ -5,7 +5,7 @@
 ![TagMyEmail Icon](src/assets/icon128.png)
 
 <p align="center">
-  <video src="src/assets/vid.webm" width="100%" controls autoplay muted loop></video>
+  <video src="src/assets/vid.mp4" width="100%" controls autoplay muted loop></video>
 </p>
 
 
