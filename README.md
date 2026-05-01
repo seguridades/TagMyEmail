@@ -4,7 +4,9 @@
 
 ![TagMyEmail Icon](src/assets/icon128.png)
 
-![Demo de TagMyEmail](src/assets/vid.webm)
+<p align="center">
+  <video src="src/assets/vid.webm" width="100%" controls autoplay muted loop></video>
+</p>
 
 
 ## Características Principales
