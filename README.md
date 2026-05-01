@@ -4,6 +4,13 @@
 
 ![TagMyEmail Icon](src/assets/icon128.png)
 
+<div align="center">
+  <video src="src/assets/vid.webm" width="80%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);" controls autoplay muted loop>
+    Tu navegador no soporta videos.
+  </video>
+</div>
+
+
 ## Características Principales
 
 - **Detección Automática**: Identifica campos de email en cualquier sitio web.
