@@ -46,7 +46,7 @@ TagMyEmail nació bajo el principio de **Soberanía de Datos**.
 
 ¡Las contribuciones son bienvenidas! Siéntete libre de abrir un _Issue_ o enviar un _Pull Request_.
 
-Hecho con amor por [seguridades.org](https://seguridades.org)
+Hecho con 🍺 por [seguridades.org](https://seguridades.org)
 
 ## Compilación y Desarrollo
 
