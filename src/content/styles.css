@@ -1,0 +1,65 @@
+.tag-my-email-button {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  background: rgba(35, 38, 56, 0.8);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(8, 194, 226, 0.3);
+  padding: 2px;
+}
+
+.tag-my-email-button:hover {
+  background: rgba(8, 194, 226, 0.2);
+  border-color: rgba(8, 194, 226, 1);
+  transform: scale(1.1);
+}
+
+.tag-my-email-button svg {
+  width: 100%;
+  height: 100%;
+  fill: #08c2e2;
+}
+
+.tag-my-email-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.tag-my-email-menu {
+  position: absolute;
+  background: var(--blue, #232638);
+  border: 1px solid rgba(8, 194, 226, 0.3);
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  z-index: 10000;
+  overflow: hidden;
+  min-width: 180px;
+  backdrop-filter: blur(10px);
+}
+
+.tag-my-email-menu-item {
+  padding: 10px 15px;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  font-family: sans-serif;
+}
+
+.tag-my-email-menu-item:last-child {
+  border-bottom: none;
+}
+
+.tag-my-email-menu-item:hover {
+  background: rgba(8, 194, 226, 0.2);
+  color: #08c2e2;
+}
