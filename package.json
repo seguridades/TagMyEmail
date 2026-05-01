@@ -6,11 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && vite build --mode content",
-    "package": "npm run build && zip -r tagmyemail-chrome.zip dist && zip -r tagmyemail-firefox.zip dist",
+    "package": "npm run build && cd dist && zip -r ../tagmyemail-chrome.zip * && zip -r ../tagmyemail-firefox.zip * && cd ..",
     "preview": "vite preview"
   },
   "keywords": [],
-  "author": "",
+  "author": "iphi@tuta.io",
   "license": "ISC",
   "devDependencies": {
     "vite": "^8.0.10"
